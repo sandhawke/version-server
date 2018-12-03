@@ -1,0 +1,36 @@
+{
+  "name": "version-server",
+  "version": "0.0.1",
+  "description": "For every resource on the server, add",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --cov test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhawke/version-server.git"
+  },
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/version-server/issues"
+  },
+  "homepage": "https://github.com/sandhawke/version-server#readme",
+  "dependencies": {
+    "appmgr": "^1.0.0",
+    "debug": "^4.1.0",
+    "delay": "^4.1.0",
+    "got": "^9.3.2",
+    "jpatch": "0.0.1",
+    "ssri": "^6.0.1"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "tap": "^12.1.0",
+    "tape": "^4.9.1",
+    "watchify": "^3.11.0"
+  }
+}
